@@ -1,0 +1,85 @@
+Número 8 
+
+SELECT 
+AVG(salario)
+FROM empregado
+
+valor = 35125
+
+
+Número 9 
+
+SELECT pno,horas, 
+pjnome,pnumero,dnum
+FROM trabalha_em  LEFT JOIN projeto ON pno = pnumero
+WHERE pjnome = 'ProductX'
+
+resposta = 2
+
+número 10 
+
+Select unome
+from empregado
+group by unome
+having count (*)>0
+
+respota = 0
+
+numero 11 
+
+SELECT * FROM empregado   
+WHERE superssn = '333445555'
+
+resposta Joyce Ramesh
+
+numero 12 
+
+SELECT pno,horas, 
+essn,pjnome,pnumero,dnum
+FROM trabalha_em  LEFT JOIN projeto ON pno = pnumero
+WHERE pjnome = 'Newbenefits'  
+
+essn = 999887777
+
+SELECT * FROM empregado 
+
+where ssn = '999887777'
+
+reposta Alicia. 
+
+numero 13 
+
+SELECT dnome,dnumero,
+dno,salario
+
+FROM departamento LEFT join  empregado ON dnumero = dno  
+
+WHERE dnome = 'Research'
+
+
+resultado 133000 
+
+
+numero 14
+
+SELECT essn,pno, 
+pjnome,pnumero
+FROM trabalha_em  LEFT JOIN projeto ON pno = pnumero
+WHERE pjnome = 'ProductX'
+
+essn = 123456789,453453453
+
+resposta 60500
+
+
+numero 15
+
+
+
+
+
+
+
+
+
+
